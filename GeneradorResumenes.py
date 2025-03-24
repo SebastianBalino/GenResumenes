@@ -3,7 +3,7 @@ import google.generativeai as genai
 import PyPDF2
 import docx
 
-gemini_api_key = API_KEY_GEMINI
+gemini_api_key = st.secrets["API_KEY_GEMINI"]
 
 st.markdown(
     """
